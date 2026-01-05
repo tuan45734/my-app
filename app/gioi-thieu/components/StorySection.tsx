@@ -18,7 +18,7 @@ export default function StorySection() {
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
                   Sản phẩm mang thương hiệu <strong className="text-orange-600">"Ăn Cùng Bà Tuyết"</strong> là các sản phẩm 
-                  ăn vặt như latiao, bim bim,chân gà, quẩy... Trong quá trình không ngừng phát triển, 
+                  ăn vặt như latiao, bim bim, chân gà, quẩy... Trong quá trình không ngừng phát triển, 
                   hiện nay sản phẩm của thương hiệu đã có mặt trên toàn quốc từ các kênh thương mại 
                   điện tử đến các kênh tạp hoá, siêu thị!
                 </p>
