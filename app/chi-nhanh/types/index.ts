@@ -4,12 +4,8 @@ export interface ChiNhanh {
   diaChi: string;
   tinhThanh: string;
   sdt: string;
-  gioMoCua: string;
   hinhAnh: string;
-  viTri: {
-    lat: number;
-    lng: number;
-  };
+  
 }
 export interface FilterState {
   timKiem: string;
