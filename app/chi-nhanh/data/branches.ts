@@ -178,7 +178,7 @@ export const danhSachChiNhanh: ChiNhanh[] = [
     tinhThanh: 'Phú Thọ',
     sdt: '0978591166',
     gioMoCua: '07:00 - 22:00',
-    hinhAnh: '/images/chi-nhanh/phu-tho-1.jpg',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767843679/TuanYen_ly7jh4.jpg',
     viTri: { lat: 21.3081, lng: 105.1162 }
   },
   {
@@ -198,7 +198,7 @@ export const danhSachChiNhanh: ChiNhanh[] = [
     tinhThanh: 'Hải Phòng',
     sdt: '0912420924',
     gioMoCua: '07:00 - 22:00',
-    hinhAnh: '/images/chi-nhanh/hai-phong-1.jpg',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767845938/AnhDuc_yt1ouu.jpg',
     viTri: { lat: 20.8449, lng: 106.6881 }
   },
   {
@@ -238,7 +238,7 @@ export const danhSachChiNhanh: ChiNhanh[] = [
     tinhThanh: 'Thái Nguyên',
     sdt: '0977528788',
     gioMoCua: '07:00 - 22:00',
-    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1766453957/thanhThanh_cdleru.jpg',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767841298/thanh_l%E1%BB%A5a_d0ox4k.jpg',
     viTri: { lat: 21.5945, lng: 105.8483 }
   },
   {
@@ -258,7 +258,7 @@ export const danhSachChiNhanh: ChiNhanh[] = [
     tinhThanh: 'Nghệ An',
     sdt: '0975472234',
     gioMoCua: '07:00 - 22:00',
-    hinhAnh: '/images/chi-nhanh/nghe-an-2.jpg',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767842509/NhungTung2_wfgbh6.jpg',
     viTri: { lat: 18.6769, lng: 105.6858 }
   },
   {
@@ -268,7 +268,7 @@ export const danhSachChiNhanh: ChiNhanh[] = [
     tinhThanh: 'Quảng Ninh',
     sdt: '0962882020',
     gioMoCua: '07:00 - 22:00',
-    hinhAnh: '/images/chi-nhanh/quang-ninh-1.jpg',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767845570/HienCuong_injqir.jpg',
     viTri: { lat: 21.2786, lng: 107.3493 }
   },
   {
@@ -308,7 +308,7 @@ export const danhSachChiNhanh: ChiNhanh[] = [
     tinhThanh: 'Hải Phòng',
     sdt: '0762341963',
     gioMoCua: '07:00 - 22:00',
-    hinhAnh: '/images/chi-nhanh/hai-phong-3.jpg',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767844028/DinhHan_x0chzp.jpg',
     viTri: { lat: 20.8567, lng: 106.6821 }
   },
   {
@@ -378,7 +378,7 @@ export const danhSachChiNhanh: ChiNhanh[] = [
     tinhThanh: 'Thanh Hóa',
     sdt: '0982276189',
     gioMoCua: '07:00 - 22:00',
-    hinhAnh: '/images/chi-nhanh/thanh-hoa-2.jpg',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1766453957/thanhThanh_cdleru.jpg',
     viTri: { lat: 19.8194, lng: 105.7758 }
   },
   {
@@ -392,33 +392,13 @@ export const danhSachChiNhanh: ChiNhanh[] = [
     viTri: { lat: 19.8400, lng: 105.7081 }
   },
   {
-    id: 36,
-    ten: 'CÔNG TY TNHH TM MINH CHÂU - VN',
-    diaChi: 'KĐT Vườn Xanh, Xã Đô Lương',
-    tinhThanh: 'Nghệ An',
-    sdt: '0985306738',
-    gioMoCua: '07:00 - 22:00',
-    hinhAnh: '/images/chi-nhanh/nghe-an-3.jpg',
-    viTri: { lat: 18.8969, lng: 105.5301 }
-  },
-  {
-    id: 37,
-    ten: 'CÔNG TY TNHH ĐẦU TƯ TM VÀ DV TỔNG HỢP HOÀNG MINH',
-    diaChi: 'Số 33/13 đường Vĩnh Lưu, Phường Đông Hải',
-    tinhThanh: 'Hải Phòng',
-    sdt: '0912843989',
-    gioMoCua: '07:00 - 22:00',
-    hinhAnh: '/images/chi-nhanh/hai-phong-4.jpg',
-    viTri: { lat: 20.8562, lng: 106.6931 }
-  },
-  {
     id: 41,
     ten: 'Dương Văn Trường',
     diaChi: 'Số 09, thôn Văn Sơn, Phường Bắc Giang',
     tinhThanh: 'Bắc Ninh',
     sdt: '0364971007',
     gioMoCua: '07:00 - 22:00',
-    hinhAnh: '/images/chi-nhanh/bac-ninh-3.jpg',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767843763/DuongMinh_uricrl.jpg',
     viTri: { lat: 21.1805, lng: 106.0653 }
   },
   {
@@ -458,7 +438,7 @@ export const danhSachChiNhanh: ChiNhanh[] = [
     tinhThanh: 'Điện Biên',
     sdt: '0915082081',
     gioMoCua: '07:00 - 22:00',
-    hinhAnh: '',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767844099/LamHa_jjdy3i.jpg',
     viTri: { lat: 21.3984, lng: 103.0157 }
   },
   {
@@ -468,7 +448,7 @@ export const danhSachChiNhanh: ChiNhanh[] = [
     tinhThanh: 'Hưng Yên',
     sdt: '0965650957',
     gioMoCua: '07:00 - 22:00',
-    hinhAnh: '',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767843507/NgocPhuc_knwvjd.jpg',
     viTri: { lat: 20.6391, lng: 106.0227 }
   },
   {
@@ -478,7 +458,7 @@ export const danhSachChiNhanh: ChiNhanh[] = [
     tinhThanh: 'Quảng Ninh',
     sdt: '0328287158',
     gioMoCua: '07:00 - 22:00',
-    hinhAnh: '',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767845415/OanhDinh_zgqo4s.jpg',
     viTri: { lat: 21.0283, lng: 107.3650 }
   },
   {
@@ -538,7 +518,7 @@ export const danhSachChiNhanh: ChiNhanh[] = [
     tinhThanh: 'Hải Phòng',
     sdt: '0346179188',
     gioMoCua: '07:00 - 22:00',
-    hinhAnh: '',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767845449/TuanVan_bcsjid.jpg',
     viTri: { lat: 20.8486, lng: 106.6833 }
   },
   {
@@ -548,7 +528,7 @@ export const danhSachChiNhanh: ChiNhanh[] = [
     tinhThanh: 'Hưng Yên',
     sdt: '0948368265',
     gioMoCua: '07:00 - 22:00',
-    hinhAnh: '',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767845835/SonLam_urfi80.jpg',
     viTri: { lat: 20.6458, lng: 106.0511 }
   },
   {
@@ -578,7 +558,7 @@ export const danhSachChiNhanh: ChiNhanh[] = [
     tinhThanh: 'Ninh Bình',
     sdt: '0942077528',
     gioMoCua: '07:00 - 22:00',
-    hinhAnh: '',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767844163/TienLan_lowtli.jpg',
     viTri: { lat: 20.1942, lng: 105.9700 }
   },
   {
@@ -588,18 +568,8 @@ export const danhSachChiNhanh: ChiNhanh[] = [
     tinhThanh: 'Quảng Ninh',
     sdt: '0908004612',
     gioMoCua: '07:00 - 22:00',
-    hinhAnh: '',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767845835/VuDucNam_pc7ooh.jpg',
     viTri: { lat: 20.9519, lng: 107.0722 }
-  },
-  {
-    id: 62,
-    ten: 'CÔNG TY TNHH THẢO XUÂN',
-    diaChi: 'Tổ 6, Khu Bí Trung 1, Phường Yên Tử',
-    tinhThanh: 'Quảng Ninh',
-    sdt: '0365642936',
-    gioMoCua: '07:00 - 22:00',
-    hinhAnh: '',
-    viTri: { lat: 21.1258, lng: 106.5639 }
   },
   {
     id: 63,
@@ -620,5 +590,65 @@ export const danhSachChiNhanh: ChiNhanh[] = [
     gioMoCua: '07:00 - 22:00',
     hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1766807343/CuongThinh_p6gkrz.jpg',
     viTri: { lat: 21.3122, lng: 105.1208 }
+  },
+  {
+    id: 66,
+    ten: 'CÔNG TY TNHH THƯƠNG MẠI THÔNG THƠM',
+    diaChi: '252 Nguyễn Trãi, Tổ Dân Phố Tiền Phong, Phường Ba Đồn, Tỉnh Quảng Trị',
+    tinhThanh: 'Quảng Trị',
+    sdt: '0941373020',
+    gioMoCua: '07:00 - 22:00',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767842214/thongthomx_aotibo.jpg',
+    viTri: { lat: 21.3122, lng: 105.1208 }
+  },
+  {
+    id: 67,
+    ten: 'CÔNG TY TNHH KINH DOANH THƯƠNG MẠI AN PHÚC THỊNH',
+    diaChi: 'Số 26, ngõ 6 thôn Tằng My, Xã Phúc Thịnh, TP Hà Nội',
+    tinhThanh: 'Hà Nội',
+    sdt: '0111163962',
+    gioMoCua: '07:00 - 22:00',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767843953/PhucThinh_i9qddz.jpg',
+    viTri: { lat: 21.3122, lng: 105.1208 }
+  },
+  {
+    id: 36,
+    ten: 'CÔNG TY TNHH TM MINH CHÂU - VN',
+    diaChi: 'KĐT Vườn Xanh, Xã Đô Lương',
+    tinhThanh: 'Nghệ An',
+    sdt: '0985306738',
+    gioMoCua: '07:00 - 22:00',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1766472377/MinhChau_tqzkkj.jpg',
+    viTri: { lat: 18.8969, lng: 105.5301 }
+  },
+  {
+    id: 37,
+    ten: 'CÔNG TY TNHH ĐẦU TƯ TM VÀ DV TỔNG HỢP HOÀNG MINH',
+    diaChi: 'Số 33/13 đường Vĩnh Lưu, Phường Đông Hải',
+    tinhThanh: 'Hải Phòng',
+    sdt: '0912843989',
+    gioMoCua: '07:00 - 22:00',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767922227/HoangMinh_p79ysu.jpg',
+    viTri: { lat: 20.8562, lng: 106.6931 }
+  },
+  {
+    id: 62,
+    ten: 'CÔNG TY TNHH THẢO XUÂN',
+    diaChi: 'Tổ 6, Khu Bí Trung 1, Phường Yên Tử',
+    tinhThanh: 'Quảng Ninh',
+    sdt: '0365642936',
+    gioMoCua: '07:00 - 22:00',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767922603/ThaoXuan_knj6py.jpg',
+    viTri: { lat: 21.1258, lng: 106.5639 }
+  },
+  {
+    id: 68,
+    ten: 'CÔNG TY TNHH THƯƠNG MẠI HẢI HẰNG',
+    diaChi: 'Số 132-134, phố Bùi Sỹ Tiêm, tổ dân phố số 13, Phường Thái Bình, Tỉnh Hưng Yên',
+    tinhThanh: 'Hưng Yên',
+    sdt: '0978221369',
+    gioMoCua: '07:00 - 22:00',
+    hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767922285/HaiHang_o1g6dz.jpg',
+    viTri: { lat: 21.1258, lng: 106.5639 }
   }
 ];
