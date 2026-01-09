@@ -22,7 +22,7 @@ export async function GET(request: Request) {
 
   const headers = {
     'Content-Type': 'application/json',
-    'Cache-Control': 'public, max-age=3600, stale-while-revalidate=86400',
+    'Cache-Control': 'public, max-age=3600, stale-while-revalidate=5184000',
   };
 
   return NextResponse.json(filteredData, { headers });

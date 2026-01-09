@@ -606,7 +606,7 @@ export const danhSachChiNhanh: ChiNhanh[] = [
     ten: 'CÔNG TY TNHH KINH DOANH THƯƠNG MẠI AN PHÚC THỊNH',
     diaChi: 'Số 26, ngõ 6 thôn Tằng My, Xã Phúc Thịnh, TP Hà Nội',
     tinhThanh: 'Hà Nội',
-    sdt: '0111163962',
+    sdt: '0972398284',
     gioMoCua: '07:00 - 22:00',
     hinhAnh: 'https://res.cloudinary.com/dvg7ourbo/image/upload/v1767843953/PhucThinh_i9qddz.jpg',
     viTri: { lat: 21.3122, lng: 105.1208 }
