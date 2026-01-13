@@ -8,14 +8,14 @@ interface BranchGridProps {
     tinhThanhLoc: string;
     trangThaiLoc: string;
   };
-  onNavigate: (chiNhanh: ChiNhanh) => void;
+ 
   onResetFilters: () => void;
 }
 
 export default function BranchGrid({
   branches,
   filters,
-  onNavigate,
+ 
   onResetFilters
 }: BranchGridProps) {
   const [trangHienTai, setTrangHienTai] = useState(1);
@@ -229,7 +229,7 @@ export default function BranchGrid({
               <BranchCard
                 key={chiNhanh.id}
                 chiNhanh={chiNhanh}
-                onNavigate={onNavigate}
+                
               />
             ))}
           </div>

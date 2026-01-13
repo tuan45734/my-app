@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { ChiNhanh, CuaHang, FilterState } from "./types";
+import {  CuaHang, FilterState } from "./types";
 import { danhSachChiNhanh } from "./data/branches";
 import HeroSection from "./components/HeroSection";
 import BranchGrid from "./components/BranchGrid";
@@ -30,7 +30,7 @@ export default function ChiNhanhPage() {
       : cn.tinhThanh === filters.tinhThanhLoc
   );
 
-  const moGoogleMaps = (location: ChiNhanh | CuaHang) => {
+  const moGoogleMaps = (location:  CuaHang) => {
     const url = `https://www.google.com/maps/search/?api=1&query=${location.viTri.lat},${location.viTri.lng}`;
     window.open(url, "_blank");
   };
@@ -46,7 +46,7 @@ export default function ChiNhanhPage() {
       <BranchGrid
         branches={chiNhanhLoc}
         filters={filters}
-        onNavigate={moGoogleMaps}
+       
         onResetFilters={() =>
           setFilters({
             timKiem: "",

@@ -2,10 +2,10 @@ import { ChiNhanh } from '../types';
 
 interface BranchCardProps {
     chiNhanh: ChiNhanh;
-    onNavigate: (chiNhanh: ChiNhanh) => void;
+   
 }
 
-export default function BranchCard({ chiNhanh, onNavigate }: BranchCardProps) {
+export default function BranchCard({ chiNhanh }: BranchCardProps) {
     return (
         <div className="group bg-white rounded-xl lg:rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 overflow-hidden hover:-translate-y-1 lg:hover:-translate-y-2 w-full flex flex-col h-full">
             <div className="relative h-32 lg:h-36 bg-gradient-to-br from-orange-400 to-pink-500 overflow-hidden flex-shrink-0">
